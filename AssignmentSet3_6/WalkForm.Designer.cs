@@ -188,7 +188,7 @@ namespace AssignmentSet3_6
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "WalkForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Walk Calculator";
+            this.Text = "Miles Calculator";
             this.gpbInputs.ResumeLayout(false);
             this.gpbInputs.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumberOfSteps)).EndInit();

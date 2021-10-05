@@ -68,7 +68,7 @@ namespace AssignmentSet3_7
         public decimal RentalCharge { get; private set; }
         #endregion
 
-        //Create the constructor to instantiate the walk object and set the three properties
+        //Create the constructor to instantiate the car rental object and set the three properties
         #region "Constructors"
         public CarRental()
         {
@@ -91,7 +91,7 @@ namespace AssignmentSet3_7
         }
         #endregion
 
-        //Create a private instance method to calculate and return the miles walked | Set RentalCharge property so that the value can be accessed
+        //Create a private instance method to calculate and return the rental charge | Set RentalCharge property so that the value can be accessed
         #region "Methods"
         private void CalculateRentalCharge() 
         {
