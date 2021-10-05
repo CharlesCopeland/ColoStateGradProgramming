@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//***********Class Information****************
+//***********Class Information****************     
 //********************************************
 //Class Description:  Calculate car rental charge with customer name, rental charge, 
 //                    beginning and ending odometer reading, and number of days rented 
 //Developer Name:     Copeland Felts
 //Date Created:       10/04/2021
 //Date Last Modified: 10/04/2021
-//********************************************
+//******************************************** 
 //********************************************
 
-namespace AssignmentSet3_7
+namespace AssignmentSet3_7 
 {
     class CarRental
     {
