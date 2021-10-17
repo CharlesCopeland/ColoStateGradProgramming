@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 //Class Description:  Create a project to calculate event charges for Aggie Catering.  
 //                    The program must determine the charges for an event based on the 
 //                    number of guests, the selected entre, and chosen drink options. 
+//
 //Developer Name:     Copeland Felts
 //Date Created:       10/17/2021
 //Date Last Modified: 10/17/2021
@@ -165,7 +166,7 @@ namespace AssignmentSet4_9
                 #region 'Check Surcharge'
                 if (NumberOfGuests > maxGuest && OpenBar == true)
                 {
-                    SurCharge = (numberOfGuests - 75) * guestSurcharge;
+                    SurCharge = (numberOfGuests - maxGuest) * guestSurcharge;
                 }
                 else
                 {
